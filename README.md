@@ -1,0 +1,2 @@
+# Weathley
+Discord Bot
