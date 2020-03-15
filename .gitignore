@@ -1,0 +1,24 @@
+# dotfiles
+.*
+!.gitignore
+!.mailmap
+
+# compiled python files
+*.py[co]
+__pycache__/
+
+# various virtualenv
+/bin/
+/build/
+/dist/
+/include/
+/lib/
+/man/
+/share/
+/src/
+
+# Local config
+config.ini
+
+# Logs
+discord.log
