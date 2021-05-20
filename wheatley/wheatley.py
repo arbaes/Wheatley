@@ -3,7 +3,7 @@ import re
 
 class Wheatley(discord.Client):
 
-    re_check_nickname = re.compile("^[\w\s]+ \(\w{2,3}\)$")
+    re_check_nickname = re.compile("^[\w\s]+ \(\w{2,4}\)$")
 
     async def on_ready(self):
         """ Callback for when the bot successfully logged in."""
